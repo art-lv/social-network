@@ -20,14 +20,11 @@ function App() {
     return (
         <div className="wrapper">
 
-            {/* Поставим title на все страницы, далее, если локально ставить его в компоненты, то они будут перетирать его своим */}
-            {/* <Helmet title="Реактивная социальная сеть" /> */}
 
             <HeaderContainer />
             <div className="social_network">
                 <Sidebar />
                 <div className="main_content">
-                    {/* Эту строку, я добавил сам, чтобы компонент "профиль", был и на главной странице (exact + /) и на profile */}
                     <Route exact path="/" component={ProfileContainer} />
                     <Route path="/profile/:userId?" render={() => <ProfileContainer />} />
                     <Route path="/dialogs" render={() => <DialogsContainer  />} />
