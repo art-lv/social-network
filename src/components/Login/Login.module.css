@@ -1,0 +1,50 @@
+.form {
+    width: 100%;
+}
+
+.formGroup {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.formControl {
+    display: block;
+    padding: 10px 10px 5px 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    border: none;
+    border-radius: 5px;
+    background: #ECF1F7;
+    outline: none;
+    transition: 0.3s;
+    border: 1px solid #2288f5;
+} 
+
+
+
+.formControl:focus {
+    border: 1px solid #e10031;
+    background: #fff;
+}
+
+
+
+.form button {
+    color: #fff;
+    background: #5181B8;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 25px;
+}
+
+.helpBlock {
+    font-size: 12px;
+    color: red;
+}

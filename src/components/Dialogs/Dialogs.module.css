@@ -1,0 +1,61 @@
+.dialogs {
+    display: flex;
+}
+
+
+
+.dialogsItems {
+    border-right: 1px solid #ccc;
+    padding-right: 50px;
+}
+
+.dialog a {
+    margin-bottom: 12px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.dialog a:hover {
+    color: #2285ff;
+}
+
+.dialog a.active {
+    color: #2285ff;
+}
+
+.messages {
+    padding-left: 50px;
+}
+
+.message {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.dialogsInput {
+    outline: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.dialigsButton {
+    color: #fff;
+    background: #5181B8;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.dialigsButton:active {
+    padding: 4px 18px;
+}
+

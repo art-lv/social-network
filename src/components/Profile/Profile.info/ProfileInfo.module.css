@@ -1,0 +1,42 @@
+.ProfileInfo {
+    margin-bottom: 30px;
+}
+
+.ProfileInfo img {
+    width: 300px;
+}
+
+.contactsData {
+    background-color: #2288f5;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.status {
+    margin-bottom: 30px;
+}
+
+.statusText {
+    font-size: 16px;
+    color: #939393;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.statusText:hover {
+    background: #F5F6F8;
+}
+
+.statusEdit {
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
